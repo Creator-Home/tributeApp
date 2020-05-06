@@ -151,12 +151,15 @@ header .overlay {
   box-shadow: 0 4px 15px 0 rgba(65, 132, 234, 0.75);
 }
 
-
+nav{
+  
+}
 
 /************************* Header CSS *********************/
 .header{
   background: #04befe;;
   font-family: 'Josefin Slab', serif;
+  margin-bottom: 5rem !important;
 }
 .header__content{
   margin: 0 10rem;
@@ -215,7 +218,7 @@ header .overlay {
   text-decoration: none !important;
  }
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 800px) {
   .header__content{
     margin: 0 ;
   }
@@ -280,12 +283,42 @@ body {
   font-family: 'Raleway' sans-serif;
   margin: 1rem;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 480px) {
   .card{
     border: none;
     background: inherit;
     padding: 1rem;
     margin-top: 2rem;
+  }
+  .third__img{
+    margin-top: 7rem !important;
+  }
+  .card__text h1{
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: gray;
+    font-family: 'Raleway' sans-serif;
+    margin-bottom: 2rem;
+  }
+  .card__text h4{
+    font-size: 1.3rem;
+    color: rgb(189, 189, 189);
+    font-family: 'Raleway' sans-serif;
+    margin-bottom: 3rem;
+  }
+  .card__text p{
+    font-size: 1.3rem;
+    color: rgb(165, 165, 165);
+    font-family: 'Raleway' sans-serif;
+    margin: 1rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  .card{
+    border: none;
+    background: inherit;
+    padding: 1rem;
+    margin-top: 5rem;
   }
   .third__img{
     margin-top: 7rem !important;
