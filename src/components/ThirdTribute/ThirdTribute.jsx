@@ -14,9 +14,9 @@ export default class ThirdTribute extends Component {
         <div className="container">
           <div className="row">
           <div className="col-md-6">
-          <div className="hero-text">
+          <div className="hero-text ">
               <ScrollAnimation animateIn='fadeInUp' >
-                <img src={Doctor} alt="Doctor" className="img-fluid"/>
+                <img src={Doctor} alt="Doctor" className="img-fluid third__img"/>
                 </ScrollAnimation>
               </div>
             </div>

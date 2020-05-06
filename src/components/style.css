@@ -158,7 +158,9 @@ header .overlay {
   background: #04befe;;
   font-family: 'Josefin Slab', serif;
 }
-
+.header__content{
+  margin: 0 10rem;
+}
 .header__content__text h4{
   color: grey;
   margin-left: 2rem;
@@ -181,8 +183,68 @@ header .overlay {
 .header__content__text a{
   text-decoration: none;
 }
+@media screen and (max-width: 480px) {
+  .header__content{
+    margin: 0 ;
+  }
+  .header__content__text h4{
+    color: grey;
+    margin-left:0 !important;
+    font-size: 2rem !important;
+    margin-bottom: 0 !important;
+  }
+  .header__content__text p{
+    margin-top: 0;
+    color: grey;
+    font-size: 1.1rem;
+    margin-left: 0;
+    text-transform: capitalize;
+  }
+  .header__content__text h4 span{
+    background-color: white;
+    color: #04befe;;
+    border-radius: 50%;
+    padding: .5rem;
+  }
+ .header__button .button{
+   margin-top: 0 !important;
+   margin-left: 4.5rem;
+ }
+ .btnn{
+  color: white !important;
+  text-decoration: none !important;
+ }
+}
+@media screen and (max-width: 768px) {
+  .header__content{
+    margin: 0 ;
+  }
+  .header__content__text h4{
+    color: grey;
+    margin-left:0 !important;
+    font-size: 2rem !important;
+    margin-bottom: 0 !important;
+  }
+  .header__content__text p{
+    margin-top: 0;
+    color: grey;
+    font-size: 1.1rem;
+    margin-left: 0;
+    text-transform: capitalize;
+  }
+  .header__content__text h4 span{
+    background-color: white;
+    color: #04befe;;
+    border-radius: 50%;
+    padding: .5rem;
+  }
+ .header__button .button{
+   margin-top: 0 !important;
+   margin-left: 4.5rem;
+ }
+}
 
-/************************* First Tribute CSS *********************/
+/*************************  Tribute CSS *********************/
 body {
   background: url('../images/bg.png') no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -217,6 +279,36 @@ body {
   color: rgb(165, 165, 165);
   font-family: 'Raleway' sans-serif;
   margin: 1rem;
+}
+@media screen and (max-width: 768px) {
+  .card{
+    border: none;
+    background: inherit;
+    padding: 1rem;
+    margin-top: 2rem;
+  }
+  .third__img{
+    margin-top: 7rem !important;
+  }
+  .card__text h1{
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: gray;
+    font-family: 'Raleway' sans-serif;
+    margin-bottom: 2rem;
+  }
+  .card__text h4{
+    font-size: 1.3rem;
+    color: rgb(189, 189, 189);
+    font-family: 'Raleway' sans-serif;
+    margin-bottom: 3rem;
+  }
+  .card__text p{
+    font-size: 1.3rem;
+    color: rgb(165, 165, 165);
+    font-family: 'Raleway' sans-serif;
+    margin: 1rem;
+  }
 }
 /************************* First Tribute CSS *********************/
 .footer{

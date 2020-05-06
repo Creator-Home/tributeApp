@@ -3,7 +3,7 @@ import Header from "./Header";
 import FirstTribute from './FirstTribute/FirstTribute';
 import SecondTribute from './SecondTribute/SecondTribute';
 import ThirdTribute from './ThirdTribute/ThirdTribute';
-import Footer from './Footer';
+
 
 
 
@@ -17,7 +17,6 @@ export default function TributePage() {
             <FirstTribute/>
            <SecondTribute/>
            <ThirdTribute/>
-           <Footer/>
         </div>
     )
 }
