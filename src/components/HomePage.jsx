@@ -2,7 +2,8 @@ import React, { Component } from "react";
 import video from "../images/background.mp4";
 import "./style.css";
 import { easings } from "react-animation";
-import { Link } from "react-router-dom";
+import SweetButton from "./SweetButton";
+
 
 export default class HomePage extends Component {
   render() {
@@ -10,9 +11,7 @@ export default class HomePage extends Component {
       animation: `slide-in ${easings.easeOutExpo} 2000ms forwards`,
     };
 
-    const buttonStyle ={
-      animation: `slide-in ${easings.easeOutExpo} 2000ms forwards`
-    }
+   
     return (
       <div>
         <header>
@@ -24,11 +23,9 @@ export default class HomePage extends Component {
             <div class="d-flex h-100 text-center align-items-center">
               <div class="w-100 text-white text">
                 <h1 class="display-3" style={style}>
-                  A tribute to All Health workers fighting Covid-19
+                  A tribute to All Health workers combating the Covid-19
                 </h1>
-                <div style={buttonStyle}>
-                  <Link to="/tribute" className="button btn-hover color-9" style={{textDecoration: 'none', color: 'white'}}> View Tribute</Link>
-                </div>
+                <SweetButton/>
               </div>
             </div>
           </div>
