@@ -49,7 +49,7 @@ export default class ThirdTributeCard extends Component {
                   You assert that dealing with potentially infected people
                   requires caution and empathy. Armed with a smile, you try to
                   alleviate patients’ multiple fears. Clearly, these are works
-                  by angels sent from above. <br/><strong>We say a big Thank you to the love and patience you have bestowed on us</strong>
+                  by angels sent from above. <br/><strong>We say a big Thank you to the love and patience you have bestowed upon us</strong>
                 </p>
                 <button
                   onClick={this.handleClick}

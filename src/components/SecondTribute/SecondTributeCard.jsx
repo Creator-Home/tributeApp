@@ -49,7 +49,7 @@ export default class SecondTributeCard extends Component {
                 “Soldiering alongside the doctors are nurses. They accompany
                   the patients closely, feel their pain and suffering.Although
                   many has never dealt with pandemics, they've decided to fully
-                  commit to her work until the crisis ends. <br/> This entitle us to give you the attribute,<strong> Caring”</strong>
+                  commit to their work until the crisis ends. <br/> This entitle we, the public, to give you the attribute,<strong> Caring”</strong>
                   
                 </p>
                 <button
