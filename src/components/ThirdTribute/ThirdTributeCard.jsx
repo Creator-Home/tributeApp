@@ -28,8 +28,9 @@ export default class ThirdTributeCard extends Component {
               <div className="card__text">
                 <h1>You Are Angels</h1>
                 <h4>
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                  Excepturi, nihil? At reiciendis ratione, quo corrupti.
+                  Considering the tremendous efforts exerted by medics around
+                  the world, one can say that in times of pandemics, “humanity”
+                  is at the front line.
                 </h4>
                 <button
                   onClick={this.handleClick}
@@ -45,12 +46,10 @@ export default class ThirdTributeCard extends Component {
             <div className="card__content">
               <div className="card__text">
                 <p>
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                  Consequatur asperiores esse quo ab dolorum aliquam mollitia,
-                  officiis nobis est doloribus doloremque in. In temporibus
-                  beatae ratione modi repellendus, ipsam dolorem laboriosam iste
-                  rerum incidunt quas nostrum eos? Cumque labore adipisci alias
-                  
+                  You assert that dealing with potentially infected people
+                  requires caution and empathy. Armed with a smile, you try to
+                  alleviate patients’ multiple fears. Clearly, these are works
+                  by angels sent from above. <br/><strong>We say a big Thank you to the love and patience you have bestowed on us</strong>
                 </p>
                 <button
                   onClick={this.handleClick}

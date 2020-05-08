@@ -28,8 +28,9 @@ export default class SecondTributeCard extends Component {
               <div className="card__text">
                 <h1>You Are Caring</h1>
                 <h4>
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                  Excepturi, nihil? At reiciendis ratione, quo corrupti.
+                  Covid-19 is a nightmare that is driving the entire world into
+                  a state of confusion, causing fear to spread among people. We
+                  can’t and won’t give up.
                 </h4>
                 <button
                   onClick={this.handleClick}
@@ -45,11 +46,10 @@ export default class SecondTributeCard extends Component {
             <div className="card__content">
               <div className="card__text">
                 <p>
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                  Consequatur asperiores esse quo ab dolorum aliquam mollitia,
-                  officiis nobis est doloribus doloremque in. In temporibus
-                  beatae ratione modi repellendus, ipsam dolorem laboriosam iste
-                  rerum incidunt quas nostrum eos? Cumque labore adipisci alias
+                “Soldiering alongside the doctors are nurses. They accompany
+                  the patients closely, feel their pain and suffering.Although
+                  many has never dealt with pandemics, they've decided to fully
+                  commit to her work until the crisis ends. <br/> This entitle us to give you the attribute,<strong> Caring”</strong>
                   
                 </p>
                 <button

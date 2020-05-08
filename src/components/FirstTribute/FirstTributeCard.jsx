@@ -28,8 +28,9 @@ export default class TributeOneFrontCard extends Component {
               <div className="card__text">
                 <h1>You Are Heroes</h1>
                 <h4>
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                  Excepturi, nihil? At reiciendis ratione, quo corrupti.
+                  Stress, exhaustion, underlying fear, and renewed hope… these
+                  words sum up the current situation of the medical staff
+                  mobilized in the battle against Covid-19.
                 </h4>
                 <button
                   onClick={this.handleClick}
@@ -45,11 +46,10 @@ export default class TributeOneFrontCard extends Component {
             <div className="card__content">
               <div className="card__text">
                 <p>
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                  Consequatur asperiores esse quo ab dolorum aliquam mollitia,
-                  officiis nobis est doloribus doloremque in. In temporibus
-                  beatae ratione modi repellendus, ipsam dolorem laboriosam iste
-                  rerum incidunt quas nostrum eos? Cumque labore adipisci alias
+                “You are not alone,” is what we keep saying to patients and
+                  their families. They really need someone to support and give
+                  them hope,” It is hard to make a patient laugh or to alleviate
+                  the virus while you feel afraid. <br/> <strong>For this, we say you are Heroes”</strong> 
                   
                 </p>
                 <button
